@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Wisata Bandung',
+      title: 'Play Store',
       theme: ThemeData(),
       home: MainScreen(),
       debugShowCheckedModeBanner: false,

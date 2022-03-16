@@ -23,7 +23,7 @@ var appList = [
   //1
   AppStore(
       name: "Higgs Domino Island",
-      imageLogo: "https://play-lh.googleusercontent.com/Fx0NDO3ZlqxtwW9QpsiSOTNGpFrX3tQXnmrDfIbwKPWPl0uUUJUDvlkZiQg-_AXl4d8_=s180-rw",
+      imageLogo: "images/higgs_domino.png",
       developer: "Higgs Games",
       genre: "Board",
       rating: "4.0",
@@ -37,7 +37,7 @@ var appList = [
   //2
   AppStore(
       name: "Mobile Legends: Bang Bang",
-      imageLogo: "https://play-lh.googleusercontent.com/-HHaGHjAW-xLqEfoHRBVRkAuPYTNgLamKdOcULfHC5GYPr2yX0pcDQMJ0HMJALbLxg=s180-rw",
+      imageLogo: "images/ml.png",
       developer: "Moonton",
       genre: "Action",
       rating: "4.1",
@@ -51,7 +51,7 @@ var appList = [
   //3
   AppStore(
       name: "Garena Free Fire - Illuminate",
-      imageLogo: "https://play-lh.googleusercontent.com/83VgJpfFEpw4gZqbhRjkE8qRdp3nENY5xmJnafXefuq63XvdjnTAsng0t50v3zOeXA=s180-rw",
+      imageLogo: "images/ff.png",
       developer: "Garena International I",
       genre: "Action",
       rating: "4.1",
@@ -65,7 +65,7 @@ var appList = [
   //4
   AppStore(
       name: "eFootball PES 2021",
-      imageLogo: "https://play-lh.googleusercontent.com/3w8LuP2cwsVsq1Ql2flQRIxn9g95kipOdWFDYZ-7-EmGwEdSe5u_frDxwbSDofWH6A=s180-rw",
+      imageLogo: "images/pes.png",
       developer: "KONAMI",
       genre: "Sports",
       rating: "4.0",
@@ -79,7 +79,7 @@ var appList = [
   //5
   AppStore(
       name: "Roblox",
-      imageLogo: "https://play-lh.googleusercontent.com/OCDxsiIIxiZL6ZQYcO9Sixv6Vxl9z0avSkpd5kS6SAE_ZU_V7_rlzzA0hsesT0Z4hA=s180-rw",
+      imageLogo: "images/roblox.png",
       developer: "Roblox Corporation",
       genre: "Adventure",
       rating: "4.4",
@@ -93,7 +93,7 @@ var appList = [
   //6
   AppStore(
       name: "Genshin Impact",
-      imageLogo: "https://play-lh.googleusercontent.com/N4temUSSlAJJMcAwIYesN2g9vZ4QljGPC-pWHDFx8CMEAPdrbHvTr259q9G6EAQ083nj=s180-rw",
+      imageLogo: "images/gi.png",
       developer: "COGNOSPHERE PTE. LTD.",
       genre: "Adventure",
       rating: "4.3",
@@ -107,7 +107,7 @@ var appList = [
   //7
   AppStore(
       name: "Rise of Kingdoms: Lost Crusade",
-      imageLogo: "https://play-lh.googleusercontent.com/OmRFgoSS-iZDwzkMpygYEjbBkpY-_fpE2CEiEgj2KG0yoj2DcP01fbGMutWEf8ip2tiv=s180-rw",
+      imageLogo: "images/rok.png",
       developer: "LilithGames",
       genre: "Strategy",
       rating: "4.4",
@@ -121,7 +121,7 @@ var appList = [
   //8
   AppStore(
       name: "Clash of Clans",
-      imageLogo: "https://play-lh.googleusercontent.com/akv2Bdp7i5Vv-sl9FuP3_dhWpUO80zULf-Pkh6RFleomEp6pZorHuCNm3FbR9oAMunVK=s180-rw",
+      imageLogo: "images/coc.png",
       developer: "Supercell",
       genre: "Strategy",
       rating: "4.4",
@@ -135,7 +135,7 @@ var appList = [
   //9
   AppStore(
       name: "Candy Crush Saga",
-      imageLogo: "https://play-lh.googleusercontent.com/gU9NKwpgLDYA6LIYK4dnkAkVyqNHUfTIqklEiNuO4oZ2OCpWQhQdqhnDh8Yb9B8SWIM=s180-rw",
+      imageLogo: "images/crs.png",
       developer: "King",
       genre: "Casual",
       rating: "4.6",
@@ -149,7 +149,7 @@ var appList = [
   //10
   AppStore(
       name: "Evony: The King's Return",
-      imageLogo: "https://play-lh.googleusercontent.com/COHcAX5Uot8S2DgticjUQPxZGZV7-lyO0_hds7Dm7K4TWipKUbSbW144PafEDaVjZw=s180-rw",
+      imageLogo: "images/evony.png",
       developer: "TG Inc.",
       genre: "Strategy",
       rating: "4.2",

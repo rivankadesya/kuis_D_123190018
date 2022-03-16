@@ -26,7 +26,7 @@ class MainScreen extends StatelessWidget {
                 children: <Widget>[
                   Expanded(
                     flex: 1,
-                    child: Image.asset(place.imageLogo),
+                    child: Image.asset(place.imageLogo,height: 100,width: 100,),
                   ),
                   Expanded(
                     flex: 2,
@@ -52,7 +52,6 @@ class MainScreen extends StatelessWidget {
             ),
           );
         },
-
       ),
     );
   }

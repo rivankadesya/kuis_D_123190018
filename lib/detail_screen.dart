@@ -19,7 +19,7 @@ class DetailScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Stack(children: [
-                Image.asset(place.imageLogo,height: 150,),
+                Image.asset(place.imageLogo,height: 150,width: 150,),
                 SafeArea(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
