@@ -1,5 +1,8 @@
+import 'dart:io';
+import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:kuis_d_123190018/model/app_store.dart';
+
 
 class DetailScreen extends StatelessWidget {
   final infoTextStyle = TextStyle(fontFamily: "Oxygen");
@@ -69,7 +72,7 @@ class DetailScreen extends StatelessWidget {
                     ),
                     Column(
                       children: <Widget>[
-                        Icon(Icons.access_time),
+                        Icon(Icons.developer_board),
                         SizedBox(height: 8.0),
                         Text(
                           place.developer,
@@ -113,12 +116,42 @@ class DetailScreen extends StatelessWidget {
                   }).toList(),
                 ),
               ),
+              Container(
+                width: 300.0,
+                child: Center(
+                  child: Column(
+                    children: [
+                      _downloadButton(),
+                    ],
+
+
+                  ),
+                ),
+              ),
             ],
           ),
         ),
       ),
     );
   }
+
+  Widget _downloadButton(){
+    return Container(
+      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+      width: 200.0,
+      child: ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          primary: Colors.blue,
+        ),
+        onPressed:(){
+          html.window.open(place.appLink, 'new tab');
+
+        }, child: const Text('Download'),
+      ),
+
+    );
+  }
+
 }
 
 class FavoriteButton extends StatefulWidget {
